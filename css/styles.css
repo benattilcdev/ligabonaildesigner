@@ -153,23 +153,23 @@ nav a:hover {
 
 /* Botão principal */
 .btn.primary {
-  background: #007BFF;
+  background: #837f78;
   color: #fff;
 }
 
 .btn.primary:hover {
-  background: #0056b3;
+  background: #4d4b49;
 }
 
 /* Botão secundário */
 .btn.secondary {
   background: transparent;
-  border: 2px solid #007BFF;
-  color: #007BFF;
+  border: 2px solid rgb(203, 205, 206);
+  color: #837f78;
 }
 
 .btn.secondary:hover {
-  background: #007BFF;
+  background: #413f3c;
   color: #fff;
 }
 
