@@ -1,75 +1,69 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aline Ligabo</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
+  <title>Header</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="header">
+<header>
   <div class="container">
+    <div class="logo"><img src="./imagens/logo.ico.ico" alt="logotipo-aline"></div>
 
-    <div class="logo">
-      <span class="logo-title">Aline Ligabo</span>
-      <span class="logo-subtitle">Studio Nail Designer</span>
-    </div>
-
-    <nav class="nav">
-      <a href="#">Início</a>
-      <a href="#">Sobre</a>
-      <a href="#">Serviços</a>
-      <a href="#">Spa dos Pés</a>
-      <a href="#">Valores</a>
-      <a href="#">Depoimentos</a>
-      <a href="#">Blog</a>
-      <a href="#">Contato</a>
+    <nav>
+      <ul>
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">PROCEDIMENTOS</a></li>
+        <li><a href="#">SERVIÇOS & VALORES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">DEPOIMENTOS</a></li>
+        <li><a href="#">CONTATO</a></li>
+      </ul>
     </nav>
 
-    <a href="#" class="btn-agendar">AGENDE SEU HORÁRIO</a>
-
+    <a href="#" class="btn">AGENDE SEU HORÁRIO</a>
   </div>
 </header>
 
+
+
 <section class="hero">
-  <div class="container hero-grid">
+  <div class="hero-container">
 
-    <div class="hero-text">
-      <span class="tag">✧ Beleza & Cuidado</span>
+    <div class="hero-content">
 
-      <h1>
-        Suas unhas <br>
-        <span class="highlight">merecem</span><br>
-        o melhor cuidado
-      </h1>
+      <!-- LADO ESQUERDO -->
+      <div class="hero-text">
+        <span class="badge">Studio Nail Designer</span>
 
-      <p>
-        Transforme suas mãos e pés com tratamentos exclusivos.
-        Cada detalhe pensado para realçar sua beleza natural com elegância e sofisticação.
-      </p>
+        <h1>Realce a beleza das suas unhas</h1>
 
-      <div class="buttons">
-        <a href="#" class="btn-primary">Ver serviços</a>
-        <a href="#" class="btn-outline">WhatsApp</a>
+        <p>
+          Oferecemos serviços profissionais de manicure e design de unhas,
+          garantindo estilo, cuidado e durabilidade para você se sentir ainda mais confiante.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn primary">Agendar horário</a>
+          <a href="#" class="btn secondary">Ver procedimentos</a>
+        </div>
       </div>
-    </div>
 
-    <div class="hero-image">
-      <img src="./imagens/unha-hero.png" alt="Unhas">
-
-      <div class="badge">
-        <strong>5+</strong>
-        <span>anos</span>
+      <!-- LADO DIREITO -->
+      <div class="hero-image">
+        <img src="./imagens/unha-hero.png" alt="Unhas">
       </div>
+
     </div>
 
   </div>
 </section>
+
+
+
 
 </body>
 </html>
